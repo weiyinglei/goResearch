@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"github.com/weiyinglei/goResearch/test"
+	"net/http"
+	"log"
 )
 
 func main() {
 	//文件系统http服务器
-	test.Start();
+	StartFileServer();
 }
 
 func main1() {
@@ -19,4 +20,15 @@ func main1() {
 		println(bytes)
 		println(string(bytes))
 	}
+}
+
+func StartFileServer() {
+	http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(http.Dir("d:/")))) // 正确
+	//http.Handle("/", http.FileServer(http.Dir("public"))) // 正确（访问根目录时转到public目录）
+
+	//http.Handle("/public", http.StripPrefix("/public", http.FileServer(http.Dir("public")))) // 错误
+	//http.Handle("/public", http.FileServer(http.Dir("/public"))) // 错误
+	//http.Handle("/public", http.FileServer(http.Dir("/public/"))) // 错误
+	//http.Handle("/public", http.FileServer(http.Dir("./public"))) // 错误！
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
