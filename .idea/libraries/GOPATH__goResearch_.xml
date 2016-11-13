@@ -1,31 +1,21 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;goResearch&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../golang.org1" />
       <root url="file://$PROJECT_DIR$/../../../sourcegraph.com" />
-      <root url="file://$PROJECT_DIR$/../../../godev" />
       <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../../../go-web-foundation" />
-      <root url="file://$PROJECT_DIR$/../../../gonote" />
       <root url="file://$PROJECT_DIR$/../../../golang.org" />
       <root url="file://$PROJECT_DIR$/../../../golang" />
       <root url="file://$PROJECT_DIR$/../.." />
-      <root url="file://$PROJECT_DIR$/../../../test" />
-      <root url="file://$PROJECT_DIR$/../../../server" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/../../../golang.org1" />
       <root url="file://$PROJECT_DIR$/../../../sourcegraph.com" />
-      <root url="file://$PROJECT_DIR$/../../../godev" />
       <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../../../go-web-foundation" />
-      <root url="file://$PROJECT_DIR$/../../../gonote" />
       <root url="file://$PROJECT_DIR$/../../../golang.org" />
       <root url="file://$PROJECT_DIR$/../../../golang" />
       <root url="file://$PROJECT_DIR$/../.." />
-      <root url="file://$PROJECT_DIR$/../../../test" />
-      <root url="file://$PROJECT_DIR$/../../../server" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
