@@ -12,15 +12,16 @@ import (
  * 冒泡排序 : 除了冒泡排序还有快速排序之类的 //TODO
  */
 func main() {
-	// defineArray()
-	// twoArray()
-	// nArray()
+	defineArray()
+	twoArray()
+	nArray()
 	bubble()
 }
 
 func defineArray() {
 	a := [10]int{9: 1}
 	fmt.Println(a)
+
 	b := [10]int{
 		1: 10,
 		2: 5,
@@ -32,7 +33,7 @@ func defineArray() {
 func twoArray() {
 	a := [2][3]int{
 		{1, 2, 3},
-		{1, 2, 3},
+		{4, 5, 6},
 	}
 	fmt.Println(a)
 }
