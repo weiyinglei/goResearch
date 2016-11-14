@@ -1,5 +1,5 @@
 /*
- * defineStruct.go
+ * structDefine.go
  * 结构体
  */
 package main
